@@ -1,0 +1,29 @@
+{
+  "name": "tg-vantage-alfresco",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soltivka/tg-vantage-alfresco.git"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soltivka/tg-vantage-alfresco/issues"
+  },
+  "homepage": "https://github.com/soltivka/tg-vantage-alfresco#readme",
+  "dependencies": {
+    "@alfresco/js-api": "^4.8.0",
+    "arraybuffer-to-buffer": "^0.0.7",
+    "file-system": "^2.2.2",
+    "file-type": "^17.1.1",
+    "node-fetch": "^3.2.2",
+    "node-telegram-bot-api": "^0.56.0",
+    "tslib": "^2.3.1"
+  }
+}
