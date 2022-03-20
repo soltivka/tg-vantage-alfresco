@@ -72,11 +72,7 @@ export const getImage = async function (chatId, msg) {
   const image = await fetch(`https://api.telegram.org/file/bot${telegramKey}/${filePath}`)
   return await arrayBufferToBuffer(await image.arrayBuffer());
 };
-export const getImageName = async function (chatId, msg) {
-  const fileName= msg.photo[msg.photo.length - 1].file_name;
-  return fileName
-  return await arrayBufferToBuffer(await image.arrayBuffer());
-};
+
 
 // export const writeImage = async function (ipn, image) {
 //   const fileType = await fileTypeFromBuffer(image);
